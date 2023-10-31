@@ -4,6 +4,8 @@ import Home from "./Home";
 import About from "./About";
 import Login from "./Login";
 import NavBar from "./Navbar";
+import Messages from "./Messages";
+import SignUp from "./Signup";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/messages" element={< Messages />}/>
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </div>
   );
